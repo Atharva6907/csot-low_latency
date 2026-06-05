@@ -468,10 +468,9 @@ floating point code — the order of operations matters at the bit level.
 This kind of infrastructure is the foundation of every systematic trading
 operation. In practice:
 
-**Market Making** — firms like Citadel Securities and Jane Street run engines
-exactly like this one, processing millions of ticks per second and making
-buy/sell decisions in under 10 microseconds. The difference between 44ns and
-21ns at scale translates directly to being first or last in the queue.
+**Market Making** — HFT firms run engines exactly like this one, processing millions of 
+ticks per second and making buy/sell decisions in under 10 microseconds. 
+The difference of a few ns at scale translates directly to being first or last in the queue.
 
 **Statistical Arbitrage** — the mean-reversion signal implemented here is a
 simplified version of pairs trading strategies used by quantitative hedge funds.
