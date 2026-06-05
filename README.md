@@ -1,4 +1,4 @@
-# Quant Platform — Low Latency Market Replay Engine
+# Low Latency Market Replay Engine
 
 A from-scratch C++20 market data replay engine implementing a deterministic mean-reversion 
 strategy, built for the CSoT'26 Low Latency Track (Week 1). The goal is not to invent a 
