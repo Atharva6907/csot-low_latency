@@ -1,0 +1,10 @@
+build/
+build-*/
+*.so
+*.o
+data/synthetic_large.csv
+data/public.csv
+perf.data
+perf.data.old
+compile_commands.json
+.cache/
