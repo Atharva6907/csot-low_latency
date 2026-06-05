@@ -52,11 +52,11 @@ Run the benchmark:
 
 | Property | Value |
 |---|---|
-| Machine | MacBook Air M4 |
-| CPU | Apple M4 (ARM Cortex-X, 4 performance + 6 efficiency cores) |
+| Machine | MacBook Air M5 |
+| CPU | Apple M5 (ARM Cortex-X, 4 performance + 6 efficiency cores) |
 | RAM | 16 GB LPDDR5 |
 | Host OS | macOS Sequoia 15 |
-| VM Software | UTM 4.x (Apple Hypervisor) |
+| VM Software | UTM 4.7 (Apple Hypervisor) |
 | VM OS | Ubuntu 24.04 LTS |
 | VM Kernel | Linux 6.8 (ARM64) |
 | Compiler | GCC 15.2.0 |
