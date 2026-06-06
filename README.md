@@ -14,13 +14,6 @@ cmake -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j$(nproc)
 ```
 
-Optional — build with sanitizers for debugging:
-
-```bash
-cmake -B build-asan -DCMAKE_BUILD_TYPE=Debug -DENABLE_SANITIZERS=ON
-cmake --build build-asan -j$(nproc)
-```
-
 ---
 
 ## How to Run
